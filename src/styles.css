@@ -9,3 +9,10 @@ body {
     font-family: 'Noto Serif', serif;
     font-size: 16px;
 }
+
+.preloadImg {
+    background: url('./assets/pre.png') center no-repeat;
+    width: 500px; 
+    height: 500px; 
+    background-size: cover;
+}

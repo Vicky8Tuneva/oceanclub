@@ -9,8 +9,8 @@ export class AppComponent {
   title = 'oceanclub';
   ngOnInit() {
     let element= document.getElementById("preload") as HTMLElement;
-    element.innerHTML = '<img width="35%"   src="../assets/pre.png">';
+    element.innerHTML = '<div class="preloadImg"></div>';
     setTimeout(() =>{element.classList.add("remove");}, 100);
-    setTimeout(() =>{element.remove();}, 10000);
+    setTimeout(() =>{element.remove();}, 4000);
   }
 }
