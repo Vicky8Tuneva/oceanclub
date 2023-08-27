@@ -7,10 +7,27 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'oceanclub';
-  ngOnInit() {
+  /*ngOnInit() {
     let element= document.getElementById("preload") as HTMLElement;
     element.innerHTML = '<div class="preloadImg"></div>';
     setTimeout(() =>{element.classList.add("remove");}, 100);
     setTimeout(() =>{element.remove();}, 4000);
+  }*/
+  ngOnInit() {
+
+  }
+  
+  ngAfterViewInit() {
+  
+    let element= document.getElementById("preload") as HTMLElement;
+    
+    setTimeout(() =>{
+    element.classList.add("remove");
+    
+    setTimeout(() =>{
+    element.remove();
+    }, 3500);
+    
+    }, 300);
   }
 }
