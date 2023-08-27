@@ -6,17 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'oceanclub';
-  /*ngOnInit() {
-    let element= document.getElementById("preload") as HTMLElement;
-    element.innerHTML = '<div class="preloadImg"></div>';
-    setTimeout(() =>{element.classList.add("remove");}, 100);
-    setTimeout(() =>{element.remove();}, 4000);
-  }*/
-  ngOnInit() {
-
-  }
-  
+  title = 'oceanclub';  
   ngAfterViewInit() {
   
     let element= document.getElementById("preload") as HTMLElement;

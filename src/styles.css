@@ -16,3 +16,9 @@ body {
     height: 500px; 
     background-size: cover;
 }
+
+@media (max-wight: 980px) {
+    .header {
+        margin-bottom: 60px;
+    }
+}
